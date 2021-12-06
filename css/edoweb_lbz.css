@@ -1,0 +1,1214 @@
+/* $Id */
+
+@charset'UTF-8';
+@font-face{
+  font-family:'Publisso';
+  src:url('/sites/all/themes/zbmed-drupal-theme/publisso-icons/publisso-icons.eot');
+  src:url('/sites/all/themes/zbmed-drupal-theme/publisso-icons/publisso-icons.eot?#iefix') format('embedded-opentype'),
+      url('/sites/all/themes/zbmed-drupal-theme/publisso-icons/publisso-icons.woff') format('woff'),
+      url('/sites/all/themes/zbmed-drupal-theme/publisso-icons/publisso-icons.ttf') format('truetype'),
+      url('/sites/all/themes/zbmed-drupal-theme/publisso-icons/publisso-icons.svg#zbmed-icons') format('svg');
+  font-weight:normal;
+  font-style:normal
+}
+
+#header {
+  /* background: url("../images/muehlenfeldtrans3.jpg") no-repeat; */
+  background-position: 140px -40px;
+  font-family: "TabletGothicNarrow", "roboto_condensedregular", sans-serif;
+
+}
+
+#header {
+  font-family: "TabletGothicNarrow";
+
+}
+
+#site-name a{
+  color: #4b4b4d;
+  font-size: 1.4em;
+}
+
+#site-slogan {
+ font-family: "TabletGothicNarrow", "roboto_condensedregular", sans-serif;
+ color: #4b4b4d;
+ font-size: 1.1em;
+ margin-top: -4px;
+
+}
+
+/* restructure search field for EL */
+form, #edoweb-basic-search-entities-form {
+  margin-bottom: 30px;
+
+}
+
+#edoweb-basic-search-entities-form input.form-text, textarea.form-textarea, select.form-select {
+  float: left;
+}
+
+#edoweb-basic-search-entities-form div.form-type-checkbox {
+  margin-bottom: 0.1em;
+  margin-top: 0em;
+}
+
+/* introduce zbmed publisso design to search field */
+#edit-query-0-term {
+  border: 1px solid #ededed;
+  background: #f6f6f6;
+  height: 2em;
+  font-size: 1em;
+
+}
+
+#edit-query-0-term:focus {
+  border: 1px solid #375b9a;
+
+}
+
+#edit-query-0-submit:focus
+#edit-query-0-submit:hover
+{
+   
+  
+}
+
+#edit-query-0-submit {
+    background-image: none;
+    box-shadow: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-left: -60px;
+    border-radius: 0px;
+    height: 100%;
+font-family: "TabletGothicNarrow", sans-serif;
+}
+
+.region-header .form-text {
+  width: 80%;
+  
+}
+
+.with-secondary-menu .region-header {
+    margin-top: -1em;
+}
+
+/* end of search field adatpion */
+
+/* hack for search field block in production  */
+
+
+#edit-query-0-term--2 {
+  border: 1px solid #ededed;
+  background: #f6f6f6;
+  height: 2em;
+  font-size: 1em;
+  float: left;
+
+}
+
+#edit-query-0-term--2:focus {
+  border: 1px solid #375b9a;
+
+}
+
+#edit-query-0-submit:focus
+#edit-query-0-submit:hover
+{
+   
+  
+}
+
+#edit-query-0-submit--2 {
+    background-image: none;
+    box-shadow: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-left: -60px;
+    border-radius: 0px;
+    height: 100%;
+font-family: "TabletGothicNarrow", sans-serif;
+}
+
+.region-header .form-text {
+  width: 80%;
+  
+}
+
+.with-secondary-menu .region-header {
+    margin-top: -1em;
+}
+
+/* end of search field adatpion */
+
+
+.tabs.primary {
+  font-family: "TabletGothicNarrow", sans-serif;
+
+}
+
+.breadcrumb {
+  font-family: "TabletGothicNarrowOblique", sans-serif;
+  
+}
+
+#footer-wrapper {
+  font-family: "TabletGothicNarrow", sans-serif;
+  background: #fff;
+}
+
+body {
+  background: #fff;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+body, table, input, label, .fieldset-legend, .ui-widget {
+  font-family: "TabletGothicNarrow", "roboto_condensedregular",sans-serif;
+  line-height: 1.5em;
+  color: #4b4b4d;
+  max-width: 1650px;
+}
+
+h1{
+  color: #4b4b4d;
+  font-weight: 500;
+}
+
+table {
+  font-size: 0.9em;
+}
+
+#content h2.title-suffix {
+  line-height: 1em;
+  margin-top: -0.3em;
+  margin-bottom: 1em;
+  font-size: 1.1em;
+}
+
+.fieldset-legend {
+  font-weight: 600;
+  text-shadow: none;
+}
+
+a {
+  color: #375b9a;
+}
+
+
+input.form-submit, button {
+  border-radius: 7px;
+  box-shadow: 0px 0px 6px #cccccc; 
+}
+
+input.form-submit:hover,
+input.form-submit:focus,
+button:hover,
+button:focus {
+  background: #dedede;
+  box-shadow: 0px 0px 6px #ff9933;
+}
+
+input.form-submit, button {
+    background: url("../images/buttons.png") repeat-x scroll 0px 0px #FFF;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #E4E4E4 #D2D2D2 #B4B4B4;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    color: #3A3A3A;
+    cursor: pointer;
+    font-size: 0.929em;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-right: 0.6em;
+    padding: 4px 17px;
+    border-radius: 7px;
+font-family: "TabletGothicNarrow", sans-serif;
+}
+
+
+a:hover {
+  color: #99bfd9;
+}
+
+
+.region-header .block {
+  float: right; /* LTR */
+  font-size: 1.0em;
+  margin: 0 15px;
+  padding: 0;
+  width: 43.5%;
+}
+
+.region-header .block-menu {
+  width: 43.5%;
+}
+
+.region-header #block-user-login .item-list li {
+  padding: 3px 5px 1px 0; /* LTR */
+}
+
+#search-form input#edit-keys, #block-search-form .form-item-search-block-form input {
+  width: 70%;
+}
+.item-list div.field {
+  clear: both;
+  border-bottom: none;
+}
+div.field {
+  clear: both;
+  /* border-bottom: 1px solid #bbb; */
+}
+
+div.field .field-label {
+  display: block;
+  float: left;
+  width: 12em;
+}
+
+div.field .field-item {
+ display: block;
+ margin-left: 12em;
+}
+
+div.field .field-item[property="content:encoded"]{
+margin-left: 0em;
+}
+
+div.field>table {
+  display: block;
+  margin: 0;
+  padding-bottom: em;
+}
+
+.edoweb-entity-list tr.even, 
+.edoweb-entity-list tr.odd, 
+div.field > table tr.even, 
+div.field > table tr.odd {
+  background-color: #fff;
+}
+
+.edoweb-entity-list tr th,
+.edoweb-entity-list tr td {
+  border: none;
+}
+
+.edoweb-entity-list tr td {
+  border-bottom: 1px solid #bbb;
+}
+
+div.field > table th {
+  padding-left: 0;
+  color: #4b4b4b;
+  background-color: #fff;
+  vertical-align: top;
+}
+div.field > table thead tr {
+  border-bottom: 1px solid #bbb;
+}
+div.field > table td {
+  padding-left: 0;
+  vertical-align: top;
+} 
+
+
+input[readonly="readonly"] {
+  background-color: #efefef;
+}
+
+div.item-list>ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+td {
+  max-width: 30em;
+  font-weight: 300;
+
+}
+
+table:not([tableheader-processed]) th {
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+table:not([tableheader-processed]) th:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+table:not([tableheader-processed]) th.headerSortDown {
+  background-image: url('/misc/arrow-desc.png');
+}
+
+table:not([tableheader-processed]) th.headerSortUp {
+  background-image: url('/misc/arrow-asc.png');
+}
+
+table h1{
+  font-size: 1.2em;
+  font-weight: 400;
+  margin-top: 3px;
+}
+
+.item-list .title{
+  font-size: 1.2em;
+  font-weight: 400;
+  margin-top: 3px;
+}
+
+fieldset.edoweb-facets {
+  width: 20%;
+  float: left;
+}
+fieldset.edoweb-facets .ui-sortable h3,
+fieldset.edoweb-facets .ui-sortable-helper {
+  cursor: move;
+}
+fieldset.edoweb-facets .ui-sortable-helper {
+  background-color: #fff;
+  border: 3px dotted #ccc;
+}
+
+fieldset.edoweb-entity-list {
+  width: 75%;
+  float: left;
+}
+
+#block-edoweb-edoweb-search-block {
+}
+
+
+ul.edoweb-facets-active>li {
+  background-color: #ee7f00;
+  -khtml-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -khtml-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  padding: 2px;
+  margin-left: 0px;
+  margin-bottom: 5px;
+  color:#fff;
+  box-shadow: 1px 1px 6px #b4b4b4; 
+}
+
+ul.edoweb-facets-active>li>a {
+   color: #fff;
+}
+
+ ul.edoweb-facets-available>li>span {
+  color: #000;
+ }
+
+ul.edoweb-facets-available>li {
+  border-bottom: 1px dotted #dbdbdb;
+  font-size: 1.0em; 
+}
+ul.edoweb-facets-available>li span {
+  font-size: 0.8em;
+}
+
+ul.edoweb-facets-available a {
+  color: #004678;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+
+ul.edoweb-facets-available a:hover {
+  color: #77adcf;
+}
+
+.item-list h3 {
+  background-color: #dbdbdb;
+  font-size: 1.1em;
+}
+
+.form-text:hover {
+
+}
+
+.form-type-item {
+  padding-bottom:5px;
+  width: 95%;
+  float: left;
+}
+
+.form-type-item a[data-bundle], #edoweb-tree-menu a[data-bundle] {
+  margin: 0px;
+  padding-left: 10px;
+  font-size:1.0em;
+  top: 10px;
+  display: block;
+}
+
+#edoweb-tree-menu a span {
+  width: 25px;
+}
+
+.form-type-item a[data-bundle] {
+  float:right;
+}
+
+.toggleButton {
+  float:right;
+  cursor: pointer;
+}
+
+.edoweb-tree li>a {
+  color: #3b3b3b;
+}
+
+.edoweb-tree li.active>a {
+  font-weight: bold;
+}
+
+.edoweb-tree div.item-list {
+  padding-left: 1.1em;
+}
+
+.edoweb-tree .edoweb-tree-toolbox>a {
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
+
+.edoweb-tree-clipboard-item {
+  padding: 0.3em;
+  margin: 0.3em;
+}
+
+.edoweb-tree-clipboard-item span.octicon {
+  float: right;
+  cursor: pointer;
+}
+
+.edoweb-tree {
+  white-space: nowrap;
+}
+
+.edoweb-tree .edoweb-mimetype {
+  height: 1.1em;
+}
+
+.edoweb-tree-cut-item {
+  opacity: .5;
+}
+
+.edoweb-tree-insert {
+  color: green;
+}
+
+.edoweb-mimetype {
+  height: 2em;
+}
+
+.edoweb-tree-clipboard-item {
+  background-color: #ff9933;
+}
+
+#edoweb-tree-menu {
+  margin-bottom: 1.1em;
+}
+
+.one-sidebar #content {
+  width: auto;
+  min-width: 30em;
+  max-width: 60em;
+}
+
+#sidebar-first {
+  width: auto;
+  min-width: 10em;
+  may-width: 20em;
+}
+
+.sidebar .block {
+  background-color: white;
+  border: none;
+}
+
+.thumb img{
+  box-shadow: 3px 3px 7px #666;
+  width:150px;
+}
+
+/* css based minify entity display */
+.default .field-name-field-edoweb-title {
+  display:none;
+} 
+
+.default .field-name-field-edoweb-parallel td {
+  display:none;
+}
+
+.default .field-name-field-edoweb-struct-child thead {
+  display:none;
+}
+
+.default .field-name-field-edoweb-creator td {
+  padding: 0px;
+  margin:0px;
+
+}
+
+.default .field-name-field-edoweb-creator td h1 {
+  
+  margin:0px;
+
+}
+
+.default .field td h1 {
+  font-size: 1.1em;
+  padding: 0px;
+  margin-top: 0px;
+
+}
+
+.item-list .edoweb.entity.compact.jquery-once-2-processed .title {
+  display:none !important;
+} 
+ 
+.field-name-field-edoweb-datastream .field-label {
+   display:none !important;
+ }
+ 
+.field-name-field-edoweb-struct-child .entity-label-file {
+   display:none !important;
+ }
+ 
+ 
+.field-name-field-mab-710{
+	display: none;
+}
+
+.field-name-field-edoweb-identifier-ht{
+	display: none;
+}
+
+/* css for institution pages */ 
+
+div.inst_logo {
+  float:left;
+ }
+
+div.inst_logo .field-item{
+  margin-left:0;
+  margin-right: 3em;
+}
+
+div.inst_title h1{
+  padding-top: 20px;
+}
+
+/* Suche im Header */
+/*
+*/
+#block-edoweb-edoweb-search-block {
+  position: absolute;
+  top: 100px;
+  right: -60px;
+  width: 350px;
+}
+#edoweb-basic-search-entities-form,
+#edoweb-basic-search-entities-form--2 {
+  margin-bottom: 0;
+}
+
+/* publisso menu */
+#block-menu-menu-publisso-menue h2.element-invisible {
+  height: auto;
+  overflow: auto;
+  position: relative;
+  clip: auto;
+  color: #4b4b4d;
+  display: block;
+  font-size: 0px;
+  padding: 10px 12px 1px 12px;
+  margin-top: 0px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+#block-menu-menu-publisso-menue h2.element-invisible::before {
+  font-family: "Publisso";
+  font-size: 19px;
+  content: "f";
+}
+#block-menu-menu-publisso-menue h2.open::before {
+  content: "r";
+}
+#block-menu-menu-publisso-menue .content {
+  margin-top: 0px;
+  display: none;
+  position: absolute;
+  top: 42px;
+}
+.region-header a {
+  color: #4b4b4d;
+}
+#block-menu-menu-publisso-menue  {
+  position: absolute;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+#block-menu-menu-publisso-menue > div > ul > li > a {
+  padding: 15px 20px;
+  font-size: 18px;
+  display: block;
+  background-color: #ffffff;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+#block-menu-menu-publisso-menue > div > ul > li > ul > li {
+  border-top: 1px solid #d9d9d9;
+}
+#block-menu-menu-publisso-menue > div > ul > li > ul {
+    background-color: #f6f6f6;
+    text-align: left;
+    font-size: 16px;
+ }
+#block-menu-menu-publisso-menue > div > ul > li:hover > a {
+  background-color: #375b9a;
+  color: #ffffff;
+}
+#block-menu-menu-publisso-menue > div > ul > li > ul  a:hover {
+  text-decoration: underline;
+}
+#block-menu-menu-publisso-menue > div > ul > li > ul > li > a {
+  padding: 10px 20px;
+}
+#block-menu-menu-publisso-menue > div > ul > li > ul > li > ul > li > a {
+  padding: 10px 30px;
+}
+@media (min-width: 769px) {
+  /* publisso menu */
+  #block-menu-menu-publisso-menue h2.element-invisible {
+    height: 1px;
+    overflow: hidden;
+    position: absolute !important;
+    clip: rect(1px, 1px, 1px, 1px);
+  }
+  #block-menu-menu-publisso-menue {
+  position: static;
+  background-color: #ffffff;
+  }
+  #block-menu-menu-publisso-menue .content {
+    margin-top: 0px;
+    display: block;
+    position: static;
+  }
+  .region-header {
+    float: None;
+    width: 100%;
+  }
+  .region-header .content {
+    float: right;
+  }
+  .region-header .block-menu {
+    width: 100%;
+    text-rendering: optimizelegibility;
+  }
+  .region-header .block-menu ul > li,
+  .region-header .block-menu ul > li > a {
+    display: inline-flex;
+  }
+  /* Level 2 */
+  #block-menu-menu-publisso-menue > div > ul > li > ul {
+    display: inline;
+    border-top: 5px solid #375b9a;
+    background-color: #ffffff;
+    min-height: 78px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    font-size: 16px;
+    top: 225px;
+    width: 100%;
+    z-index: 99999;
+   }
+  #block-menu-menu-publisso-menue > div > ul > li > ul > li {
+    display: inline;
+  }
+  #block-menu-menu-publisso-menue > div > ul > li > ul > li > a {
+    padding: 15px 20px;
+    background-color: #ffffff;
+    text-align: left;
+    text-transform: None;
+    width: 150px;
+  }
+  #block-menu-menu-publisso-menue > div > ul > li > ul > li > a:hover {
+    text-decoration: underline
+  }
+  /* Level 3 */
+  #block-menu-menu-publisso-menue > div > ul > li > ul > li > ul {
+    font-size: 16px;
+    display: inline;
+    background-color: #ffffff;
+    position:absolute;
+    top: 45px;
+    margin-left: -175px
+  }
+  #block-menu-menu-publisso-menue > div > ul > li > ul > li > ul > li {
+    display: block;
+    text-transform: None;
+  }
+  /* submenus only on hover */
+  /* Level 2 */
+  #block-menu-menu-publisso-menue > div > ul > li > ul { 
+    display: none;
+  }
+  #block-menu-menu-publisso-menue > div > ul > li:hover > ul { 
+    display: inline;
+  }
+  /* Level 3 */
+  #block-menu-menu-publisso-menue > div > ul > li > ul > li > ul { 
+    display: none;
+  }
+  #block-menu-menu-publisso-menue > div > ul > li > ul > li:hover > ul { 
+    display: inline;
+  }
+}
+
+div.warning {
+    background-image: url("../../misc/message-24-warning.png");
+    border-color: #ed5;
+   background-repeat:no-repeat ;
+}
+
+/* css based reduced information set: get rid of unessessary fields */
+.default .field-name-field-edoweb-title {
+	display: none;
+}
+
+.field-name-field-edoweb-identifier-ht {
+	display: none;
+}
+
+div.field.field-name-field-edoweb-struct-child.field-type-edoweb-ld-reference.field-label-above th
+	{
+	display: none;
+}
+.fileInfo .fileMimetype
+	{
+	display: none;
+}
+.fileInfo .fileSize
+	{
+	display: none;
+}
+.fileInfo .accessRights
+	{
+	display: none;
+}
+
+.fileInfo .accessRights
+	{
+	display: none;
+}
+
+.fileInfo .downloadUrl
+{
+ 
+}
+
+.field-name-field-mab-710 .field-item{
+float:left;
+margin-left: 0em !important;
+margin-right: 0.2em;
+}
+
+.field-name-field-mab-710 .field-items{
+margin-left: 12em;
+}
+
+.field-name-field-edoweb-institution{
+display: none;
+}
+
+.field-name-field-edoweb-collected-by{
+display: none;
+}
+
+.item-list .edoweb.entity.compact.jquery-once-2-processed .title {
+  display:none !important;
+} 
+ 
+.field-name-field-edoweb-datastream .field-label {
+   display:none !important;
+ }
+ 
+.field-name-field-edoweb-struct-child .entity-label-file {
+   display:none !important;
+ }
+
+.field-name-field-edoweb-identifier-ht{
+        display: none;
+}
+
+/* hide all forms for object types not supported by edoweb */ 
+
+
+.form-type-item a[data-bundle=volume]{
+    display: none;
+}
+
+
+
+.form-type-item a[data-bundle=issue]{
+    display: none;
+}
+
+.form-type-item a[data-bundle=version]{
+    display: none;
+}
+.form-type-item a[data-bundle=webpage]{
+    display: none;
+}
+.form-type-item a[data-bundle=journal]{
+    display: none;
+}
+
+
+#edoweb-tree-menu a[data-bundle=volume]{
+    display: none;
+}
+
+
+
+#edoweb-tree-menu a[data-bundle=issue]{
+    display: none;
+}
+
+#edoweb-tree-menu a[data-bundle=version]{
+    display: none;
+}
+
+#edoweb-tree-menu a[data-bundle=webpage]{
+    display: none;
+}
+#edoweb-tree-menu a[data-bundle=journal]{
+    display: none;
+}
+
+#edoweb-basic-crawler-form .form-item{
+display:block;
+clear:both;
+}
+ 
+a[href*="regal"] span.octicon.octicon-link-external{
+  display: none;	
+}
+a[href^="http://dewey.info"] span.octicon.octicon-link-external{
+  display: none;	
+}
+.resourceTable tr td, tr {
+	background-color:#ffffff !important;
+	 border-spacing: 0;
+    border-collapse: collapse;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    margin:0;
+}
+
+.resourceTable th ul li p  {
+	display:none;
+	
+}
+.resourceTable td {
+    vertical-align:top;
+}
+/**
+do not display this fields
+**/
+.resourceTable .isDescribedBy, 
+.resourceTable .primaryTopic,
+.resourceTable .itemID, 
+.resourceTable .title, 
+.resourceTable .hbzId,
+.resourceTable .contributorOrder, 
+.resourceTable .fulltextOnline,
+.resourceTable .contributingCorporateBodyLabel, 
+.resourceTable .isPrimaryTopicOf,
+.resourceTable .hasVersion, 
+.resourceTable .exemplar,
+.resourceTable .subjectOrder, 
+.resourceTable .seeAlso, 
+.resourceTable .subjectLabel,
+.resourceTable .creator, 
+.resourceTable .contributor, 
+.resourceTable .volume,
+.resourceTable .externalParent, 
+.resourceTable .collectionOne,
+.resourceTable .accessScheme, 
+.resourceTable .publishScheme,
+.resourceTable .contentType, 
+.resourceTable .sameAs, 
+.resourceTable .describedby,
+.resourceTable .parallelEdition, 
+.resourceTable .hasItem,
+.resourceTable .predecessor, 
+.resourceTable .successor, 
+.resourceTable .corporateBodyForTitle,
+.resourceTable .funding, 
+.resourceTable .fundingProgram, 
+.resourceTable .projectId,
+.resourceTable .fundingId
+{ 
+	display: none;
+}
+
+/**
+do not show external links on this fields
+**/
+.resourceTable .medium a span, 
+.resourceTable .subject a span,
+.resourceTable .rdftype a span, 
+.resourceTable .nwbibsubject a span,
+.resourceTable .nwbibspatial a span, 
+.resourceTable .language a span,
+.resourceTable .ddc a span, 
+.resourceTable .reviewStatus a span,
+.resourceTable .publicationStatus a span,
+.resourceTable .ddc a span,
+.resourceTable .subjectName a span,
+.resourceTable .language a span,
+.resourceTable .reviewStatus a span,
+.resourceTable .publicationStatus a span, 
+.resourceTable .professionalGroup a span{
+	display: none;
+}
+
+/**
+do not show separator before external links
+**/
+.resourceTable .medium .separator, 
+.resourceTable .subject .separator,
+.resourceTable .rdftype .separator, 
+.resourceTable .nwbibsubject .separator,
+.resourceTable .nwbibspatial .separator, 
+.resourceTable .language .separator,
+.resourceTable .ddc .separator, 
+.resourceTable .reviewStatus .separator,
+.resourceTable .publicationStatus .separator,
+ .resourceTable .ddc .separator,
+ .resourceTable .subjectName .separator,
+ .resourceTable .language .separator,
+ .resourceTable .reviewStatus .separator,
+ .resourceTable .publicationStatus .separator,
+ .resourceTable .professionalGroup .separator {
+	display: none;
+}
+
+.field-label{
+	font-weight:bold;
+}
+
+
+.public-access {
+    position:relative;
+} 
+.public-access:before{
+	color:green;
+	content: "\f13e";
+    font-family: FontAwesome;
+    top:0;
+    left:-5px;
+    padding-right:10px;
+}
+
+.private-access {
+    position:relative;
+} 
+.private-access:before{
+	color:red;
+	content: "\f023";
+   font-family: FontAwesome;
+    top:0;
+    left:-5px;
+    padding-right:10px;
+}
+.restricted-access {
+    position:relative;
+} 
+.restricted-access:before{
+	color:orange;
+    font-family: FontAwesome;
+    top:0;
+    left:-5px;
+    padding-right:10px;
+	content: "\f023";
+}
+
+.hasPart ul { list-style-type: none; width: 250px; margin: 5; padding: 10px; }
+.hasPart ul li { display: inline;}
+.hasPart {vertical-align:top;}
+
+.downloadIcon img{
+	width:20px;
+}
+
+.downloadIcon a,.downloadIcon div,.downloadIcon span,.downloadIcon img {
+	display:inline-block;
+}
+td:empty {
+  display:none;
+}
+
+tr.inSeries tr.rdftype, tr.inSeries td.numbering,tr.inSeries td.series {
+	display:none;
+}
+
+tr.volumeIn tr.rdftype,tr.volumeIn td.numbering,tr.volumeIn td.multiVolumeWork {
+	display:none;
+}
+.resourceTable .catalogLink a[title], .resourceTable .parallelEdition a[title]{
+   pointer-events: none;
+   cursor: default;
+   color:rgb(75, 75, 77);
+}
+
+.resourceTable ul,.resourceTable ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.subjectAltLabelList {
+  display: inline;
+  list-style: none;
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.componentList , .subjectAltLabelList {
+  display: inline;
+  list-style: none;
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.componentList li , .subjectAltLabelList li {
+  display: inline;
+}
+
+.componentList li:after, .subjectAltLabelList li:after {
+  content: ", ";
+}
+
+.componentList li:last-child:after, .subjectAltLabelList li:last-child:after{
+    content: "";
+}
+
+.author-title-list{
+  display: inline;
+  list-style: none;
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.author-title-list {
+  display: inline;
+  list-style: none;
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.author-title-list li{
+  display: inline;
+}
+
+.author-title-list li:after{
+  content: "| ";
+}
+
+.author-title-list li:last-child:after {
+    content: "";
+}
+
+.contribution tr td, .contribution tr th {
+	margin: 0;
+    padding: 0;
+}
+
+body[class^="entity-type"] div.form-item.form-type-item {
+ display:none;
+}
+body.not-front div.form-item.form-type-item {
+// display:none;
+}
+
+.lastModifiedLabel{
+   display:none;
+}
+
+
+
+.item-list .titleMain,.item-list .otherTitle, .item-list .corporateBodyForTitle{
+	color:#375b9a;
+	font-size: 0.5em;
+        font-family: "TabletGothicNarrow", "roboto_condensedregular",sans-serif;
+	font-weight:200;
+	line-height: 1.5em; 
+}
+ 
+.item-list .titlePost ol{
+ 	margin: 0em 0;
+ 	padding: 0 0 0em 0em;
+ 	color:#000000;
+       
+        font-family: "TabletGothicNarrow", "roboto_condensedregular",sans-serif;
+        font-weight:200;
+       
+line-height: 1em;
+
+font-size: .9em;
+}
+
+.item-list .titlePost a{
+	color:#000000;
+}
+
+.joinedFunding-child .field-label{
+	width:80px;
+}
+
+.joinedFunding-child.field-label{
+	display:none;
+}
+
+.orcid-pic{
+    height:12px;
+    width:12px;
+}
+
+.subjectSource{
+     display:none;
+}
+
