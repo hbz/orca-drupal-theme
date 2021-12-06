@@ -88,14 +88,16 @@
 <div id="page-wrapper"><div id="page">
 
   <div id="header" class="<?php print $secondary_menu ? 'with-secondary-menu': 'without-secondary-menu'; ?>"><div class="section clearfix">
-<!--
-    <?php $mynewurl='http://www.publisso.de';
+
+    <?php $mynewurl='https://paideia.hbz-nrw.de';
     	   if ($logo): ?>
+      	      <div id="site-logo">
       	      <a href="<?php print $mynewurl ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
               	 <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
       	      </a>
+      	      </div>
     <?php endif; ?>
--->
+
     <?php if ($site_name || $site_slogan): ?>
       <div id="name-and-slogan"<?php if ($hide_site_name && $hide_site_slogan) { print ' class="element-invisible"'; } ?>>
 

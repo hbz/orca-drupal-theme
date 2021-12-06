@@ -24,6 +24,11 @@
 
 }
 
+#site-logo {
+	float: right;
+	padding-top: 10px;
+}
+
 #site-name a{
   color: #4b4b4d;
   font-size: 1.4em;
