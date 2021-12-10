@@ -105,10 +105,10 @@
         'av': 'livivoicon-doctype-av',
         'conf': 'livivoicon-doctype-conf',
         'part': 'livivoicon-doctype-collection',
-        'researchData':'livivoicon-doctype-conf',
+        'researchData':'livivoicon-doctype-oer',
         'chapter':'livivoicon-doctype-article',
         'proceeding':'livivoicon-doctype-article',
-        'oer':'livivoicon-doctype-oer', 
+        'oer':'livivoicon-doctype-conf', 
 'link':'octicon-link-external'
       }
       $('.glyphicon-link').removeClass('glyphicon').removeClass('glyphicon-link').addClass('octicon '+icons['link']);
