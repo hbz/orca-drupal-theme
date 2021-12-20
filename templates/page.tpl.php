@@ -89,11 +89,11 @@
 
   <div id="header" class="<?php print $secondary_menu ? 'with-secondary-menu': 'without-secondary-menu'; ?>"><div class="section clearfix">
 
-    <?php $mynewurl='https://paideia.hbz-nrw.de';
+    <?php $mynewurl='https://www.orca.nrw';
     	   if ($logo): ?>
       	      <div id="site-logo">
-      	      <a href="<?php print $mynewurl ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
-              	 <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+      	      <a href="<?php print $mynewurl ?>" title="zu ORCA.nrw gehen" id="logo">
+              	 <img src="<?php print $logo; ?>" alt="orca.nrw" />
       	      </a>
       	      </div>
     <?php endif; ?>
