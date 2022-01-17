@@ -398,6 +398,7 @@ fieldset.edoweb-entity-list {
 }
 
 #block-edoweb-edoweb-search-block {
+	display: none;
 }
 
 
@@ -1166,7 +1167,7 @@ body[class^="entity-type"] div.form-item.form-type-item {
  display:none;
 }
 body.not-front div.form-item.form-type-item {
-// display:none;
+  /* display:none; */
 }
 
 .lastModifiedLabel{
